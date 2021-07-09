@@ -15,4 +15,19 @@ Maven:
 	    <groupId>com.github.orange451</groupId>
 	    <artifactId>minijvm_rt</artifactId>
 	    <version>master-SNAPSHOT</version>
-	</dependency>```
+	</dependency>
+```
+
+Gradle:
+```gradle
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+	
+	dependencies {
+	        implementation 'com.github.orange451:minijvm_rt:master-SNAPSHOT'
+	}
+```
