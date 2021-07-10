@@ -3,7 +3,7 @@ Cloned from https://github.com/digitalgust/miniJVM
 This repository serves as a means to easily include minijvm_rt as a dependency.
 
 Maven:
-```maven
+```xml
 	<repositories>
 		<repository>
 		    <id>jitpack.io</id>
